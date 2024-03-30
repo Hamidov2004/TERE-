@@ -40,7 +40,7 @@ function Home() {
                         </form>
                     </div>
 
-                    <div className="d-none d-md-flex col-sm-12 col-lg-6 right_box"   >
+                    <div className="d-none d-md-flex col-sm-12 col-lg-6 right_box my-4"   >
                         <img src={mapImg} alt="" />
                     </div>
 
@@ -61,7 +61,7 @@ function Home() {
                         <div className="container" style={{marginTop:"90px"}}>
                             <div className="row">
 
-                                <div className="col-sm-12 col-lg-4 d-grid d-md-none second_central_detail">
+                                <div className="col-sm-12 col-lg-4 d-grid d-lg-none second_central_detail">
                                         <img src={phone} alt="" style={{zIndex:"4"}}/>
                                         <img src={ellipse} alt="" className="ellipse" />
                                         {/* <img src={carusel_item} alt="carsusel" className="carusel_item d-block d-md-none" /> */}
@@ -97,7 +97,7 @@ function Home() {
                                 </div>
 
 
-                                <div className="col-sm-12 col-lg-4 d-none d-md-grid second_central_detail">
+                                <div className="col-sm-12 col-lg-4 d-none d-lg-grid second_central_detail">
                                         <img src={phone} alt="" style={{zIndex:"4"}}/>
                                         <img src={ellipse} alt="" className="ellipse" />
                                         <img src={carusel_item} alt="carsusel" className="carusel_item" />    
@@ -145,7 +145,7 @@ function Home() {
                         <h1> <span style={{color: "#75BF7A"}}>TERE</span> BENEFITS</h1>
 
                         
-                        <div className="third_container_child" >
+                        <div className="third_container_child">
                             <div className="third_child_left">
                                 <div className="number_text"> 
                                     <span className="m-0" >01.</span>

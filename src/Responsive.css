@@ -167,7 +167,7 @@
     line-height: 30px;
   }
     .third_child_right img{
-      width: 65%;
+      width: 85%;
       height: 227px;
       margin: 25px 0px 15px 0px;
     }
@@ -351,7 +351,7 @@
     line-height: 30px;
   }
     .third_child_right img{
-      width: 50%;
+      width: 45%;
       height: 227px;
       margin: 25px 0px 15px 0px;
     }
@@ -375,6 +375,257 @@
 @media screen and (min-width: 768px){
     
     /* navbar */
+    /* .navbarUl{
+      width: 100%;
+      row-gap: 10px;
+      margin-top: 0px;
+      border: 2px solid blue;
+    } */
+  /* Footer container */
+
+  .Footer_container{
+    height: 520px;
+    background-color: white;
+  }
+  .footer_box{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    flex-wrap: wrap;
+  }
+
+  .footer_info_box{
+    width: auto;
+    height: 180px;
+    display: grid;
+    justify-items: start;
+    position: static;
+  } 
+  .footer_info_box p{
+    font-size: 15px;
+  }
+  .footer_info_box:nth-child(2){
+    display: grid;
+  }
+  .footer_form{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 0px;
+    position: static;
+    /* top: 110px; */
+  }
+
+  .Footer_reserved{
+    width: 40%;
+    text-align: center;
+    color: #9E9DA2;
+  }
+  .download_box button{
+    font-size: 11px;
+    font-weight: 600;
+  }
+  /* Home container */
+  .Home_container{
+    padding: 50px 60px;
+  }
+  .right_box img{
+    width: auto;
+  }
+  .left_box{
+    padding: 130px 0px 0px 0px;
+  }
+  .left_box h1{
+    width: 80%;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 65.91px;
+    text-align: start;
+  }
+  .left_box p{
+    width: 70%;
+    text-align: start;
+  }
+  .home_downloads{
+    width: 80%;
+  }
+  .h_download{
+    font-size: 15px;
+  }
+  .Apply_box{
+    height: 166px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .Apply_box p{
+    color: white;
+    height: auto;
+    max-width: 20%;
+    font-size: 19px
+  
+  }
+  .Apply_box_Form{
+    width: 70%;
+    height: 65px;
+    flex-direction: row;
+    row-gap: 25px;
+    
+  }
+  .Apply_box_Form input{
+    width: 65%;
+    height: 100%;
+  }
+  .Apply_box_Form a{
+    width: 30%;
+    height: 100%;
+  }
+  .second_Cont_text{
+    width: 500px;
+  }
+  .second_container{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .second_left_detail{
+    margin-bottom: 0px;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 0px 0px 0px;
+  }
+  .second_right_detail{
+    padding: 0px 0px 0px 0px;
+    row-gap: 0px;
+  }
+  .holder1{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+  }
+  .text_in_left_container2{
+    text-align: center;
+  }
+  .holder2{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+  }
+  .second_central_detail{
+    display: grid;
+    align-content: space-between;
+    justify-items: center;
+    height: auto;
+    margin-bottom: 0px;
+    row-gap: 50px;
+  }
+  .ellipse{
+    height: 400px;
+    width: 400px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 80px;
+  }
+  .text_in_right_container2{
+    text-align: center;
+  }
+  .carusel_item{
+    margin-top: 0px;
+  }
+  .third_container{
+    height: auto;
+    padding: 0px 0px 250px 0px;
+  }
+  .third_container_child{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+  }
+  .third_child_left{
+    width: 55%;
+    height: auto;
+  }
+  .third_child_left p{
+    width: 80%;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #9E9DA2;
+    margin: 10px auto;
+    display: grid !important;
+
+  }
+  .third_child_right{
+    width: 45%;
+    height: auto;
+    text-align: center;
+  }
+  .number_text{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;  
+    font-size: 88px;
+  }
+  .number_text h3{
+    font-size: 34px;
+    line-height: 40.5px;
+  }
+    .third_child_right img{
+      width: auto;
+      height: 75%;
+      margin: 0px;
+    }
+    .third_child_right p{
+      margin: 0px;
+      color: #9E9DA2;
+      font-size: 19px;
+      line-height: 24.93px;
+    }
+
+  .third_container_child_seperate{
+    align-self: self-end;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+/* min-width 992 */
+@media screen and (min-width: 992px){
+    
+    /* navbar */
     .navbarUl{
       width: 65%;
       row-gap: 0px;
@@ -394,7 +645,7 @@
     align-items: center;
     padding: 30px 60px;
     position: relative;
-    flex-wrap: wrap;
+    flex-wrap: wrap;;
   }
 
   .footer_info_box{
@@ -402,8 +653,13 @@
     height: 180px;
     display: grid;
     justify-items: start;
+    align-items: center;
     position: static;
   } 
+
+  .footer_info_box p{
+    font-size: 18px;
+  }
   .footer_info_box:nth-child(2){
     display: grid;
   }
@@ -425,6 +681,10 @@
     color: #9E9DA2;
   }
 
+  .download_box button{
+    font-size: 15px;
+    font-weight: 600;
+  }
   /* Home container */
   .Home_container{
     padding: 50px 60px;
@@ -524,6 +784,8 @@
     row-gap: 15px;
   }
   .second_central_detail{
+    height: auto;
+    width: 300px;
     display: grid;
     align-content: space-between;
     justify-items: center;
@@ -533,13 +795,14 @@
   }
   .ellipse{
     height: 400px;
-    width: 400px;
+    width: 100%;
     z-index: 1;
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: 80px;
+    border: 2px solid orange;
   }
   .text_in_right_container2{
     text-align: start;
