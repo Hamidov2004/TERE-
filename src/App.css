@@ -307,7 +307,6 @@ body{
 .second_central_detail{
   height: 560px;
   display: grid;
-  width: 50%;
   align-content: center;
   justify-items: center;
   position: relative;

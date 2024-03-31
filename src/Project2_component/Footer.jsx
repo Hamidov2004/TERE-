@@ -8,7 +8,7 @@ function Footer() {
         <>
             <div className="Footer_container">
                 <div className="footer_box">
-                    <img src={footer_img} alt="" />
+                    <img src={footer_img} alt="" className="footer_tere_logo"/>
                     <div className="footer_info_box">
                         <h4 style={{marginBottom:"20px"}}>Be Our Friend</h4>
                         <p>3, Season Park, Jakarta</p>
