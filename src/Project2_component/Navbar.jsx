@@ -4,7 +4,7 @@ import Navbar_img from "../Images/Navbar_img.png"
 function Navbar() {
     return ( 
         <>
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img className="nav_img" src={Navbar_img} alt="" />

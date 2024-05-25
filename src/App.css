@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 body{
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -21,7 +20,7 @@ body{
   background-color: white;
   display: flex;
   align-items: center;
-  padding: 60px 60px 25px 60px;
+  padding: 35px 60px 25px 35px;
 }
 .nav_img{
   width: 140px;
@@ -35,7 +34,7 @@ body{
   align-items: center;
 }
 .nav-link{
-  font-size: 18px;
+  font-size: 20px;
   color: black !important;
   transition: .2s ease-in-out;
 }

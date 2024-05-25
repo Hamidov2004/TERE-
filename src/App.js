@@ -10,6 +10,11 @@ AOS.init();
 
 
 function App() {
+   fetch(`YOUR-API`)
+   .then(response => response.json())
+   .catch(err => {
+   console.log(err);
+    });
   return (
     <>
       <Navbar/>
