@@ -19,7 +19,7 @@ function Home() {
                 <div className="row">
 
                     <div className="d-flex d-md-none col-sm-12 col-lg-6 right_box my-2"   >
-                        <img src={mapImg} alt="" />
+                        <img src={mapImg} alt="Rasm bor" />
                     </div>
 
                     <div className="col-sm-12 col-lg-6 left_box" >
@@ -62,15 +62,15 @@ function Home() {
                             <div className="row">
 
                                 <div className="col-sm-12 col-lg-4 d-grid d-lg-none second_central_detail">
-                                        <img src={phone} alt="" style={{zIndex:"4"}}/>
-                                        <img src={ellipse} alt="" className="ellipse" />
+                                        <img src={phone} alt="Rasm bor" style={{zIndex:"4"}}/>
+                                        <img src={ellipse} alt="Rasm bor" className="ellipse" />
                                         {/* <img src={carusel_item} alt="carsusel" className="carusel_item d-block d-md-none" /> */}
                                 </div>
 
                                 <div className="d-flex col-lg-4 second_left_detail">
                                         <div className="holder1">
                                             <div className="image_container">
-                                                <img src={round_border} alt=""/>
+                                                <img src={round_border} alt="Rasm bor"/>
                                                 <p>1</p>
                                             </div>
                                             <h3>REQUEST A RIDE</h3>
@@ -79,7 +79,7 @@ function Home() {
                                         
                                         <div className="holder1 d-none d-md-flex">
                                             <div className="image_container" style={{marginTop:"35px"}}>
-                                                <img src={round_border} alt=""/>
+                                                <img src={round_border} alt="Rasm bor"/>
                                                 <p>3</p>
                                             </div>
                                             <h3>INSTANT NOTIFICATIONS</h3>
@@ -88,7 +88,7 @@ function Home() {
 
                                         <div className="holder1 d-md-none">
                                             <div className="image_container" style={{marginTop:"35px"}}>
-                                                <img src={round_border} alt=""/>
+                                                <img src={round_border} alt="Rasm bor"/>
                                                 <p>2</p>
                                             </div>
                                             <h3>POST A RIDE</h3>
@@ -98,8 +98,8 @@ function Home() {
 
 
                                 <div className="col-sm-12 col-lg-4 d-none d-lg-grid second_central_detail">
-                                        <img src={phone} alt="" style={{zIndex:"4"}}/>
-                                        <img src={ellipse} alt="" className="ellipse" />
+                                        <img src={phone} alt="Rasm bor" style={{zIndex:"4"}}/>
+                                        <img src={ellipse} alt="Rasm bor" className="ellipse" />
                                         <img src={carusel_item} alt="carsusel" className="carusel_item" />    
                                 </div>
 
@@ -108,7 +108,7 @@ function Home() {
 
                                             <div className="holder1 d-flex d-md-none">
                                                 <div className="image_container" style={{marginTop:"35px"}}>
-                                                    <img src={round_border} alt=""/>
+                                                    <img src={round_border} alt="Rasm bor"/>
                                                     <p>3</p>
                                                 </div>
                                                 <h3>INSTANT NOTIFICATIONS</h3>
@@ -117,7 +117,7 @@ function Home() {
 
                                         <div className="holder2 d-none d-md-flex">
                                             <div className="image_container">
-                                                <img src={round_border} alt=""/>
+                                                <img src={round_border} alt="Rasm bor"/>
                                                 <p>2</p>
                                             </div>
                                             <h3>POST A RIDE</h3>
@@ -126,7 +126,7 @@ function Home() {
 
                                         <div className="holder2">
                                             <div className="image_container" style={{marginTop:"35px"}}>
-                                                <img src={round_border} alt=""/>
+                                                <img src={round_border} alt="Rasm bor"/>
                                                 <p>4</p>
                                             </div>
                                             <h3>CASHLESS PAYMENT</h3>
@@ -154,7 +154,7 @@ function Home() {
                                     <p className="d-none ">You can decide when, and how much time you want to drive.</p>
                             </div>
                             <div className="third_child_right">
-                                <img src={third_img1} alt="" />
+                                <img src={third_img1} alt="Rasm bor" />
                                 <p className="d-block d-md-none">You can decide when, and how much time you want to drive.</p>
                             </div>
                         </div>
@@ -169,7 +169,7 @@ function Home() {
                                 </div>
 
                                 <div className="third_child_right">
-                                    <img src={third_img2} alt="" />
+                                    <img src={third_img2} alt="Rasm bor" />
                                     <p className="d-block d-md-none">By driving with tere you can earn more.</p>
                                 </div>
                         </div>
@@ -184,7 +184,7 @@ function Home() {
                                 </div>
 
                                 <div className="third_child_right">
-                                    <img src={third_img3} alt="" />
+                                    <img src={third_img3} alt="Rasm bor" />
                                     <p className="d-block d-md-none">Tere is a local service provider and we are proud to support you in your local language. We are proud to be at your service 24/7!</p>
                                 </div>
                         </div>
