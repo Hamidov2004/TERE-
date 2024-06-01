@@ -10,6 +10,7 @@ body{
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  position: relative;
 }
 .html{
   scroll-behavior: smooth;
@@ -20,7 +21,7 @@ body{
   background-color: white;
   display: flex;
   align-items: center;
-  padding: 35px 60px 25px 35px;
+  padding: 22px 60px 22px 35px;
 }
 .nav_img{
   width: 140px;
@@ -28,16 +29,20 @@ body{
 }
 .navbarUl{
   height: auto;
-  width: 65%;
+  width: 67%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid blue;
 }
 .nav-link{
   font-size: 20px;
   color: black !important;
   transition: .2s ease-in-out;
+  word-wrap: normal;
+  border: 2px solid red;
 }
+
 .nav-link:hover{
   color:  #75BF7A !important
 }
@@ -54,13 +59,13 @@ body{
 }
 
 
-
 /* Footer container */
 
 .Footer_container{
   width: 100%;
   height: 520px;
   background-color: white;
+  position: relative;
 }
 .footer_box{
   display: flex;
@@ -68,7 +73,7 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 30px 60px;
-  /* border: 2px solid red; */
+  position: relative;
 }
 .footer_info_box{
   width: 15%;
@@ -114,7 +119,6 @@ body{
   color: white;
   border: none;
 }
-
 .Footer_reserved{
   display: flex;
   justify-content: center;
@@ -128,12 +132,15 @@ body{
 
 
 
+
 /* home page  */
 .Home_container{
   width: 100%;
   height: auto;
   background-color: rgb(242, 242, 242);
   padding: 50px 60px;
+  position: relative;
+  top: 100px;
 }
 
 .left_box{

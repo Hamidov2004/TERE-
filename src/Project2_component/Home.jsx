@@ -30,18 +30,18 @@ function Home() {
 
                         <form className="home_downloads">
                             <a className="h_download" href="#">
-                                <img src={playMarket} alt="" />
+                                <img src={playMarket} alt="rasm bor"/>
                                 DOWNLOAD
                             </a>
                             <a className="h_download" href="#">
-                                <img src={appStore} alt="" />
+                                <img src={appStore} alt="rasm bor" />
                                 DOWNLOAD
                             </a>   
                         </form>
                     </div>
 
-                    <div className="d-none d-md-flex col-sm-12 col-lg-6 right_box my-4"   >
-                        <img src={mapImg} alt="" />
+                    <div className="d-none d-md-flex col-sm-12 col-lg-6 right_box" style={{marginTop:"45px"}} >
+                        <img src={mapImg} alt="rasm bor" />
                     </div>
 
                     <div className="Apply_box">
@@ -160,7 +160,7 @@ function Home() {
                         </div>
 
                         <div className="third_container_child third_container_child_seperate">
-                                <div className="third_child_left third_child_left_in2">
+                                <div className="third_child_left ">
                                     <div className="number_text"> 
                                         <span className="m-0" >02.</span>
                                         <h3>Earnings</h3>

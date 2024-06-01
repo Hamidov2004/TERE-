@@ -4,13 +4,13 @@ import Navbar_img from "../Images/Navbar_img.png"
 function Navbar() {
     return ( 
         <>
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-lighty fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img className="nav_img" src={Navbar_img} alt="" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                        <span class="fa-solid fa-bars"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
